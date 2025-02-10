@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/images/car-favicon.jpg" type="image/x-icon">
+
+  <!-- Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/style.css"/>
+  <title>Car Rental Website</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="#">
+        <img src="images/logo-dark.png" alt="logo" class="logo-dark" />
+        <span>Car Rental</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cars-deals">Rental Deals</a></li>
+          <li class="nav-item"><a class="nav-link" href="#choose">Why Choose Us</a></li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a id="signUpBtn" class="btn ms-3" href="pages/signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a id="loginBtn" class="btn ms-3" href="pages/login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <header class="bg-light py-5 text-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 header__content">
+          <h2>👍 100% Trusted car rental platform in Jordan</h2>
+          <h1 class="fw-bold">FAST AND EASY WAY TO RENT A CAR</h1>
+          <p>
+            Discover a seamless car rental experience with us. Choose from a
+            range of premium vehicles to suit your style and needs, and hit the
+            road with confidence. Quick, easy, and reliable - rent your ride today!
+          </p>
+        </div>
+        <div class="col-lg-6 ">
+          <img src="images/header.png" alt="header" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="container my-5 about__container" id="about">
+    
+    <h2 class="text-center fw-bold">About Us</h2>
+    <p class="text-justify-custom text-muted section__description">
+      At Car Rental, we take pride in offering a seamless and convenient car rental experience to our valued customers. Whether you're planning a weekend getaway or need a reliable vehicle for a business trip, our diverse fleet of well-maintained cars has you covered. We are committed to providing exceptional customer service, competitive pricing, and flexible rental options to meet your unique needs. Choose us for your next journey and experience the difference of hassle-free car rentals.
+    </p>
+
+    <h2 class="text-center fw-bold ">How it Works</h2>
+
+    <p class="text-center text-muted section__description">
+      Renting a car with us is simple! Choose your vehicle, pick your dates, and complete your booking.
+      We'll handle the rest, ensuring a smooth start to your journey.
+    </p>
+
+    <!-- Cards -->
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm p-4">
+          <div class="display-4 text-primary"><i class="ri-map-pin-2-fill"></i></div>
+          <h4 class="mt-3">Choose Location</h4>
+          <p class="text-muted">
+            Select from a variety of pick-up locations that best suit your needs, whether it's close to home, work, or
+            the airport.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm p-4">
+          <div class="display-4 text-primary"><i class="ri-calendar-event-fill"></i></div>
+          <h4 class="mt-3">Pick-up Date</h4>
+          <p class="text-muted">
+            Choose the exact date and time for your car pick-up, ensuring that your vehicle is ready when you need it.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm p-4">
+          <div class="display-4 text-primary"><i class="ri-roadster-fill"></i></div>
+          <h4 class="mt-3">Book your Car</h4>
+          <p class="text-muted">
+            Complete your booking with just a few clicks, and we'll prepare your vehicle to ensure a hassle-free
+            pick-up.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cars Cards Section -->
+  <section id="cars-deals" class="cars-deals">
+    <div class="container md-6">
+      <h2 >Rental Deals</h2>
+      <div id="carcont" class="row"></div>
+    </div>
+  </section>
+
+  <!-- Why choose us Section -->
+  <section class="container py-5" id="choose">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center">
+        <img src="images/choose.png" alt="choose" class="img-fluid" />
+      </div>
+      <div class="col-md-6">
+        <h2 class="mb-4">Why Choose Us</h2>
+        <p class="mb-4">
+          Discover the difference with our car rental service. We offer reliable
+          vehicles, exceptional customer service, and competitive pricing to
+          ensure a seamless rental experience.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="d-flex align-items-start">
+              <span class="me-3 fs-3 text-primary"><i class="ri-customer-service-line"></i></span>
+              <div>
+                <h5>Customer Support</h5>
+                <p>Our dedicated support team is available to assist you 24/7.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-start">
+              <span class="me-3 fs-3 text-primary"><i class="ri-map-pin-line"></i></span>
+              <div>
+                <h5>Many Locations</h5>
+                <p>Convenient pick-up and drop-off locations to suit your travel needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-start">
+              <span class="me-3 fs-3 text-primary"><i class="ri-wallet-line"></i></span>
+              <div>
+                <h5>Best Price</h5>
+                <p>Enjoy competitive rates and great value for every rental.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-start">
+              <span class="me-3 fs-3 text-primary"><i class="ri-user-star-line"></i></span>
+              <div>
+                <h5>Experienced Drivers</h5>
+                <p>Reliable, professional drivers available upon request.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-start">
+              <span class="me-3 fs-3 text-primary"><i class="ri-verified-badge-line"></i></span>
+              <div>
+                <h5>Verified Brands</h5>
+                <p>Choose from trusted and well-maintained car brands.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-start">
+              <span class="me-3 fs-3 text-primary"><i class="ri-calendar-close-line"></i></span>
+              <div>
+                <h5>Free Cancellations</h5>
+                <p>Flexible bookings with free cancellation options.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe Section -->
+  <section class="container-fluid py-5 subscribe">
+    <div class="container">
+        <div class="row align-items-center subscribe-content">
+            <div class="col-md-6 text-center">
+                <img src="images/subscribe.png" alt="subscribe" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2 class="fw-bold">Subscribe for the latest car rental updates</h2>
+                <p class="text-muted">
+                    Stay in the know! Subscribe to receive the latest car rental deals,
+                    exclusive offers, and updates right to your inbox. Don't miss out on
+                    special promotions and the newest additions to our fleet.
+                </p>
+                <form class="d-flex" id="subscriptionForm">
+                    <input type="email" class="form-control me-2" id="email" placeholder="Your Email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <div id="message"></div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer Section -->
+  <footer class="footer pt-5 ">
+    <div class="container footer-container ">
+      <div class="row">
+        <div class="col-md-3 footer-col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="images/logo-white.png" alt="logo" />
+              <span>Car Rental</span>
+            </a>
+          </div>
+          <p class="footer-text">
+            We're here to provide you with the best vehicles and a seamless
+            rental experience. Stay connected for updates, special offers, and
+            more. Drive with confidence!
+          </p>
+          <ul class="footer__socials d-flex list-unstyled">
+            <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+            <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
+            <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+            <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer__col">
+          <h4>Our Services</h4>
+          <ul class="footer__links list-unstyled">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cars-deals">Rental Deals</a></li>
+            <li><a href="#choose">Why Choose Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer__col">
+          <h4>Vehicle Model</h4>
+          <ul class="footer__links list-unstyled">
+            <li><a href="#cars-deals">Tesla</a></li>
+            <li><a href="#cars-deals">Toyota</a></li>
+            <li><a href="#cars-deals">Honda</a></li>
+            <li><a href="#cars-deals">Porche</a></li>
+            <li><a href="#cars-deals">Mercedes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__links list-unstyled">
+            <li class="contactUs"><i class="ri-phone-fill"></i> +926 0777777777</li>
+            <li class="contactUs"><i class="ri-map-pin-fill"></i> Amman, Jordan</li>
+            <li class="contactUs"><i class="ri-mail-fill"></i> carrental2025@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2025 Car Rental Website. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/cards.js"></script>
+  <script src="scripts/rentedCar.js"></script>
+  <script src="scripts/checkLoggedIn.js"></script>
+  <script src="scripts/logout.js"></script>
+  <script src="/scripts/subscribtions.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+{
+  "cars" : [
+    {
+      "id": 1,
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2023,
+      "price": 250,
+      "People":4,
+      "image": "https://th.bing.com/th/id/OIP.vNJlYXU71wbEm65DZVXB6AHaFj?rs=1&pid=ImgDetMain",
+      "image2": "https://th.bing.com/th/id/OIP.wPF6iLatMzBi9IxEXQEjZQHaFj?rs=1&pid=ImgDetMain",
+      "image3":"https://th.bing.com/th/id/OIP.z7iV8jU5Xn2jt3HG-xfZ4gAAAA?rs=1&pid=ImgDetMain",
+      "fuel_type": "Electric"
+    },
+    {
+      "id": 2,
+      "make": "Ford",
+      "model": "Mustang GT",
+      "year": 2023,
+      "price": 200,
+      "People":4,
+      "image": "https://th.bing.com/th/id/OIP.JhvANusGIrMEdk4w-x2SMwHaFj?rs=1&pid=ImgDetMain",
+      "image2": "https://www.earnhardtford.com/assets/stock/ColorMatched/Transparent/640/cc_2022FOC21_03_640/cc_2022FOC210107_03_640_YZ.png",
+      "image3":"https://i.pinimg.com/originals/a3/df/00/a3df00b132f90a9c6f390c3982bebee1.jpg",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 3,
+      "make": "Porsche",
+      "model": "911 Turbo S",
+      "year": 2023,
+      "price": 250,
+      "People":2,
+      "image": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2024/02/8770-15.jpg",
+      "image2": "https://files.porsche.cn/filestore/image/multimedia/none/911-tus-cab-modelimage-sideshot/model/9e30bd39-95bf-11ea-80c9-005056bbdc38/porsche-model.png",
+      "image3":"https://static.turbosquid.com/Preview/2020/11/30__05_08_55/2020_cayenne_turbo_coupe_0010.jpgAE22E33C-5188-4DE7-A9ED-EBE132B43E33Zoom.jpg",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 4,
+      "make": "Toyota",
+      "model": "Supra",
+      "year": 2023,
+      "price": 150,
+      "People":2,
+      "image": "https://fourpage-inbound.s3.amazonaws.com/ci/10895/2020-toyota-supra__medium.png",
+      "image2": "https://s3.amazonaws.com/toyota.site.toyota-v5/tci-prod/toyota/media/build/sup/col/big/b23_db2c0_rl1_0d05_b.png?ck=08122022045933",
+      "image3":"https://th.bing.com/th/id/OIP.QiGFs3gnx9oI6UXnwb5IEgHaE8?rs=1&pid=ImgDetMain",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 5,
+      "make": "Chevrolet",
+      "model": "Corvette Stingray",
+      "year": 2023,
+      "price": 200,
+      "People":4,
+      "image": "https://th.bing.com/th/id/R.a4657b064402e81dd6017c0ca2a55aaf?rik=rzNMsGnMbgkZdA&pid=ImgRaw&r=0",
+      "image2": "https://img.sm360.ca/images/newcar/ca/2023/chevrolet/corvette-coupe-stingray/1lt/coupe/exteriorColors/14487_v2_cc0640_001_gd0.png",
+      "image3":"https://hips.hearstapps.com/hmg-prod/images/2023-chevrolet-corvette-stingray-convertible-3lt-z51-370-1665496985.jpg",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 6,
+      "make": "BMW",
+      "model": "i8",
+      "year": 2022,
+      "price": 200,
+      "People":4,
+      "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/15061/2020-BMW-i8-front_15061_032_2400x1800_B97.png",
+      "image2": "https://autoimage.capitalone.com/stock-media/evox/2015-BMW-i8-Giga_World-B96-10452_cc2400_001_B96.png?width=640&height=480",
+      "image3":"https://imgcdn.zigwheels.us/large/gallery/interior/12/87/bmw-i8-dashboard-view-354252.jpg",
+      "fuel_type": "Hybrid"
+    },
+    {
+      "id": 7,
+      "make": "Audi",
+      "model": "R8",
+      "year": 2023,
+      "price": 230,
+      "People":4,
+      "image": "https://modelkars.com/wp-content/uploads/GT461-AUDI-R8-V10-GT-RWD-GREY-gt-spirit-54.webp",
+      "image2": "https://images.dealer.com/ddc/vehicles/2022/Audi/R8/Coupe/still/side-left/side-left-640-en_US.jpg",
+      "image3":"https://carsfrenzy.net/wp-content/uploads/2022/06/2023-Audi-R8-Interior-768x442.jpg",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 8,
+      "make": "Lamborghini",
+      "model": "Huracan",
+      "year": 2023,
+      "price": 300,
+      "People":2,
+      "image": "https://www.pngplay.com/wp-content/uploads/13/Lamborghini-Huracan-Spyder-Performante-Transparent-PNG.png",
+      "image2": "https://th.bing.com/th/id/OIP.mCTPc4gU7LdRyrwNnuJAAAHaE6?w=1536&h=1020&rs=1&pid=ImgDetMain",
+      "image3":"https://carcarevip.com/wp-content/uploads/2023/05/hura_tecnica_s_04_m.jpg",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 9,
+      "make": "Ferrari",
+      "model": "SF90 Stradale",
+      "year": 2023,
+      "price": 350,
+      "People":2,
+      "image": "https://photo.8891.com.tw/2021/05/26/s/1622023160652268_600_400.png",
+      "image2": "https://i.pinimg.com/originals/2c/c0/15/2cc0159822fead6291b764fec86847a3.png",
+      "image3":"https://th.bing.com/th/id/OIP.JKHbP2Qg9lb0mbscCw03nwHaE8?rs=1&pid=ImgDetMain",
+      "fuel_type": "Hybrid"
+    },
+    {
+      "id": 10,
+      "make": "McLaren",
+      "model": "720S",
+      "year": 2023,
+      "price": 200,
+      "People":2,
+      "image": "https://th.bing.com/th/id/OIP.mwdwzy6TIFXYDJgXAGienQHaE8?rs=1&pid=ImgDetMain",
+      "image2": "https://www.pngmart.com/files/22/McLaren-720S-PNG-Isolated-File.png",
+      "image3":"https://preowned-amn.mclaren.com/picserver1/userdata/37/14666/3FAdVwEMPE/21398fd04f3040168132ea9da859d39a.jpg",
+      "fuel_type": "Gasoline"
+    },
+    
+    {
+      "id": 11,
+      "make": "Honda",
+      "model": "Civic Type R",
+      "year": 2023,
+      "price": 150,
+      "People":4,
+      "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/51770/2023-Honda-Civic%20Type%20R-front_51770_032_2400x1800_WZ.png?interpolation=high-quality&crop=1.0xw:0.90xh;left,top&downsize=600:*",
+      "image2": "https://img.sm360.ca/images/newcar/ca/2023/honda/civic-type-r/base/hatchback/exteriorColors/2023_honda_civic_v2_type-r_nh-0_014.png",
+      "image3":"https://th.bing.com/th/id/OIP.dbaXyrWUKOs1P52_uY-m4gHaE8?pid=ImgDet&w=474&h=316&rs=1",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 12,
+      "make": "Subaru",
+      "model": "WRX STI",
+      "year": 2023,
+      "price": 170,
+      "People":2,
+      "image": "https://www.pngplay.com/wp-content/uploads/13/Subaru-WRX-STI-PNG-Background.png",
+      "image2": "https://65e81151f52e248c552b-fe74cd567ea2f1228f846834bd67571e.ssl.cf1.rackcdn.com/ldm-images/2018-Subaru-WRX-Lapis-Blue-Pearl.png",
+      "image3":"https://i.ytimg.com/vi/EjBtwWdxFuU/maxresdefault.jpg",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 13,
+      "make": "Nissan",
+      "model": "GT-R",
+      "year": 2023,
+      "price": 190,
+      "People":2,
+      "image": "https://img.sm360.ca/ir/w770h435c/images/newcar/ca/2023/nissan/gt-r/nismo/coupe/exteriorColors/2023_nissan_gt-r_nissmo_ext_032_qab.png",
+      "image2": "https://www.nissanusa.com/interactivebrochures/sportscars/gtr/gt-r-trims/m/assets/Nissan/articles/GT-R/mobile/trim_levels/08-gtr-trims-img-nismo-01.jpg",
+      "image3":"https://hips.hearstapps.com/hmg-prod/images/2023-nissan-gt-r-103-1671034095.jpg",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 14,
+      "make": "Mercedes-Benz",
+      "model": "AMG GT",
+      "year": 2023,
+      "price": 220,
+      "People":4,
+      "image": "https://th.bing.com/th/id/R.549697937fe85aa1683b3854a8b9cbe7?rik=mdj6tqZnelJCqA&pid=ImgRaw&r=0",
+      "image2": "https://st.automobilemag.com/uploads/sites/10/2018/02/2018-mercedes-benz-amg-gt-roadster-side-view.png",
+      "image3":"https://th.bing.com/th/id/OIP.bzjwiTOnkQ8kpTY_5MsVxAHaEK?rs=1&pid=ImgDetMain",
+      "fuel_type": "Gasoline"
+    },
+    {
+      "id": 15,
+      "make": "Dodge",
+      "model": "Challenger SRT Hellcat",
+      "year": 2023,
+      "price": 170,
+      "People":2,
+      "image": "https://media.chromedata.com/MediaGallery/media/MjkzOTU4Xk1lZGlhIEdhbGxlcnk/ds0xhQ_U4v4zB_mzmGAe3B6cNdyiTCcogF7UGJNFvJb7HEDmfgJC6eX2hOLGespSi_WAzxX3eV85PjTYrtnc_sT5Nbpl9ha3P8cMf0lvRyxI6qhIh41aho-alePKve6D2QWgLGdNe0okxHW_5Bbgo9aei7QEVamwbaQz0mufhjGwZ-JVI_wgvw/cc_2023DOC190130_01_640_PVP.png",
+      "image2": "https://img.sm360.ca/images/newcar/ca/2023/dodge/challenger/srt-hellcat-redeye-widebody-jailbreak/coupe/main/2023_Dodge_Challenger_SRT-HELLCAT-REDEYE-Widebody_MAIN.png",
+      "image3":"https://img.sm360.ca/images/newcar/ca/2023/dodge/challenger/srt-hellcat-redeye-widebody/coupe/interiorColors/2023_dodge_challenger_srt-hellcat-redeye-widebody_a7x6_003.png",
+      "fuel_type": "Gasoline"
+    }
+  ]
+}
