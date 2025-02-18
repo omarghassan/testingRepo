@@ -199,6 +199,11 @@ header {
 .text-justify-custom {
   text-align: justify;
 }
+
+.sign-up-form {
+  padding: 30px;
+}
+
 .footer {
   background-color: var(--primary-color-dark);
 }
